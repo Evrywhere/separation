@@ -1,0 +1,11 @@
+
+# [ ] Print each word in the quote on a new line  
+#message = input("Please write a message " )
+message = input("Enter your message   ")
+start = 0
+idx_msg = message.find(" ")
+while idx_msg != -1: 
+    print(message[start:space_index])
+    start = idx_msg + 1
+    idx_msg = message.find (" ", idx_msg + 1)
+
